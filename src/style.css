@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  margin: 0;
+  background-color: darkred;
+  color: white;
+  display: flex;
+  font-weight: bold;
+  padding: 12px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo {
+  font-size: 24px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.welcome {
+  border: 2px solid black;
+  padding: 24px;
+  font-size: 24px;
+  background-color: lightgray;
+  color: maroon;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.content-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px;
+}
+
+.chef {
+  border: 2px solid maroon;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px;
+}
+
+.food {
+  border: 2px solid maroon;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px;
+}
